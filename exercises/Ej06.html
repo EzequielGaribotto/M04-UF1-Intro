@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>EJ 6: nose</title>
+        <link rel="icon" type="image/x-icon" href="../images/amongus.jpg">
+        <meta charset="UTF-8">
+        <meta name="author" content="Ezequiel Garibotto">
+        <meta name="description" content="Ejercicio 4">
+        <meta name="keywords" content="Intro HTML">
+    </head>
+    <body>
+        <form action="formtest.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Ficha de la película</legend>
+                    <label for="titulo">Titulo:</label>
+                    <input type="text" id="titulo" name="titulo"><br>
+                    <label for="director">Director:</label>
+                    <input type="text" id="director" name="director"><br>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="date"><br>
+                    <label for="poster">Póster:</label>
+                    <input type="file" id="poster" name="poster"><br>
+                    <label for="version">Versión:</label><br>
+                    <input type="checkbox" id="version" name="version">IMAX</input>
+                    <input type="checkbox" id="version" name="version">3D</input>
+                    <input type="checkbox" id="version" name="version">Full HD</input><br>
+                    <label for="clasificacion">Clasificación:</label><br>
+                    <input type="radio" id="clasificacion" name="version">TP</input>
+                    <input type="radio" id="clasificacion" name="version">+12</input>
+                    <input type="radio" id="clasificacion" name="version">+15</input>
+                    <input type="radio" id="clasificacion" name="version">+18</input>
+            </fieldset>
+            <fieldset>
+                <legend>Ficha de proyección</legend>
+                <label for="sala">Sala:</label>
+                <input type="text" id="sala" name="sala" list="salalist">
+                <datalist id="salalist">
+                    <option label="cine de barrio" value="cine de barrio">
+                    <option label="Cines Yelmo" value="Cines Yelmo">
+                    <option label="Cinesa" value="Cinesa">
+                    <option label="Cines Full HD" value="Cines Full HD">
+                </datalist><br>
+                <textarea rows="8" cols="60">Escribe una breve sinopsis</textarea><br>
+                <label for="lang"></label>
+                <select id="idioma" name="idioma">
+                    <option value="ingles">Inglés</option>
+                    <option value="espanyol">Español</option>
+                    <option value="catala">Català</option>
+                </select>
+                </datalist><br>
+                <label for="sesion">Sesión:</label>
+                <input type="time" id="sesion" name="sesion"><br>
+                <label for="dias_proyeccion">Días de proyección</label><br>
+                <select multiple id="dias_proyeccion" name="dias_proyeccion" size="4">
+                    <option value="lunes">Lunes</option>
+                    <option value="martes">Martes</option>
+                    <option value="miercoles">Miercoles</option>
+                    <option value="jueves">Jueves</option>
+                    <option value="viernes">Viernes</option>
+                    <option value="sabado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                </select><br>
+                <label for="color">Elige un color de fondo:</label>
+                <input type="color" id="color" name="color"><br>
+                <label for="puntuacion">Puntuación del público:</label>
+                <progress id="puntiacion" value="95" max="100">95% </progress>
+            </fieldset>
+        </form>
+    </body>
+
+    </html>
