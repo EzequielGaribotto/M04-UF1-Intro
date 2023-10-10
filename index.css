@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Empanadagallega, #Empanadacarne {
+    color:brown 
+}
+
+h4 {
+    text-align:start;
+    text-decoration:underline;
+}
+
+{
+    display:flex;
+    width:100%;
+    margin:15%;
+    flex-wrap:wrap;
+    position:relative;
+}
+
+article {
+    background-color:white;
+    position:relative;
+}
+
+button {
+    background-color: aliceblue;
+    color:brown;
+    position:relative;
+}
+
+header {
+    position:sticky;
+}
