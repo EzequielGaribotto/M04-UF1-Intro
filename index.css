@@ -7,17 +7,18 @@ body {
 }
 
 h4 {
-    text-align:start;
-    text-decoration:underline;
+    text-align:start
+    text-decoration:underline
 }
 
-{
+#container {
     display:flex;
     width:100%;
     margin:15%;
     flex-wrap:wrap;
     position:relative;
 }
+
 
 article {
     background-color:white;
